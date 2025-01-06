@@ -1,0 +1,63 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #6a5acd, #483d8b);
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .projects {
+    padding: 50px 20px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    flex: 1 1 calc(50% - 20px);
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
